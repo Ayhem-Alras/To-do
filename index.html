@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <h2>
+        To-Do List
+        <img
+          src="https://tmpfiles.nohat.cc/m2H7K9Z5Z5N4K9i8.png"
+          alt="icon"
+        />
+      </h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your text" />
+        <button onclick="addToDoList()">Add</button>
+      </div>
+      <ul id="list-container"></ul>
+      <div id="counter">erledigt: <span id="count">0</span></div> <!-- Counter added -->
+    </div>
+  </div>
+  <footer>
+    <span id="current-time-footer"></span>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
